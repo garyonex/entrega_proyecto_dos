@@ -8,5 +8,6 @@ router.get('/', articuloCtrl.mostrarTodos);
 router.get('/stock',articuloCtrl.mostrarAlgunos)
 router.get('/:id', articuloCtrl.buscar);
 router.delete('/:id',articuloCtrl.eliminarUno)
+router.put('/:id', articuloCtrl.actualizar)
 
 export default router;
